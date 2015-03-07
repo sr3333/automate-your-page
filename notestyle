@@ -1,0 +1,52 @@
+	/* This is the CSS comments */
+
+
+/* background-color provides color for my top heading 1.  Border radius provides the rounded edge look. I chose to use em instead of px for smoother rounded edge look. font-family proivdes the font style */
+h1 {
+	background-color:#5e88b0;
+	border-radius: 1em;
+	text-align: center;
+	font-family: Helvetica;
+}
+
+/* Border radius provides the rounded edge look. font-family proivdes the font style */
+h2 {
+	border-radius: 1em;
+	font-family: Helvetica;
+}
+
+/* background-color provides color for my top heading 2.  Border radius provides the rounded edge look. font-family proivdes the font style */
+h3 {
+	font-size: 1em;
+	font-family: Helvetica;
+}
+
+/* this is the backgorund color for the body whch is the overall color for the page on the websote*/
+/*body {
+	background-color: #DFEAF1;
+}*/
+
+/* this is to create border around my heading 2. 3px specify the broder thickness. The background color provides the color within this border*/
+.border {
+	border: 3px solid black;
+	border-radius: 1em;
+	background-color: #DFEAF1;
+}
+
+/* this is to create border around my notes. 1px specify the broder thickness. The background color provides the color within this border*/
+.border1 {
+	border: 1px solid black;
+	border-radius: 2em;
+	background-color:#d2b48c;
+}
+
+/* this is the backgound color for my notes, border radius provide the rounded edge look.  The padding of 1% allows spaces to be created around my notes so the broder does not intersect my notes */
+.subject {
+	border-radius: 2em;
+	padding:1%;
+}
+
+/* this is the font style for my notes*/
+.description  {
+	font-family: Helvetica;
+}
